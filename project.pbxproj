@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BLDAPP000000000000000001 /* TalariaTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FILAPP000000000000000001 /* TalariaTrackerApp.swift */; };
+		BLD000000000000000000001 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FIL000000000000000000001 /* Models.swift */; };
+		BLD000000000000000000002 /* RideTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FIL000000000000000000002 /* RideTracker.swift */; };
+		BLD000000000000000000003 /* RideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FIL000000000000000000003 /* RideView.swift */; };
+		BLD000000000000000000004 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FIL000000000000000000004 /* HistoryView.swift */; };
+		BLD000000000000000000005 /* RoutesAndStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = FIL000000000000000000005 /* RoutesAndStats.swift */; };
+		BLDASSET0000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FILASSET0000000000000001 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FILAPP000000000000000001 /* TalariaTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalariaTrackerApp.swift; sourceTree = "<group>"; };
+		FIL000000000000000000001 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		FIL000000000000000000002 /* RideTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideTracker.swift; sourceTree = "<group>"; };
+		FIL000000000000000000003 /* RideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideView.swift; sourceTree = "<group>"; };
+		FIL000000000000000000004 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		FIL000000000000000000005 /* RoutesAndStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesAndStats.swift; sourceTree = "<group>"; };
+		FIL999999999999999999999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FILASSET0000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FILPROD00000000000000001 /* TalariaTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalariaTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FRAMEWRK0000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		GROUPMAI0000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				GROUPSRC0000000000000001 /* TalariaTracker */,
+				GROUPPRD0000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		GROUPSRC0000000000000001 /* TalariaTracker */ = {
+			isa = PBXGroup;
+			children = (
+				FILAPP000000000000000001 /* TalariaTrackerApp.swift */,
+				FIL000000000000000000001 /* Models.swift */,
+				FIL000000000000000000002 /* RideTracker.swift */,
+				FIL000000000000000000003 /* RideView.swift */,
+				FIL000000000000000000004 /* HistoryView.swift */,
+				FIL000000000000000000005 /* RoutesAndStats.swift */,
+				FIL999999999999999999999 /* Info.plist */,
+				FILASSET0000000000000001 /* Assets.xcassets */,
+			);
+			path = TalariaTracker;
+			sourceTree = "<group>";
+		};
+		GROUPPRD0000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FILPROD00000000000000001 /* TalariaTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TARGETAP0000000000000001 /* TalariaTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = TARGCFG00000000000000001 /* Build configuration list for PBXNativeTarget "TalariaTracker" */;
+			buildPhases = (
+				SOURCEPH0000000000000001 /* Sources */,
+				FRAMEWRK0000000000000001 /* Frameworks */,
+				RESOURCP0000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalariaTracker;
+			packageProductDependencies = (
+			);
+			productName = TalariaTracker;
+			productReference = FILPROD00000000000000001 /* TalariaTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ROOTPROJ0000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					TARGETAP0000000000000001 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = PROJCFG00000000000000001 /* Build configuration list for PBXProject "TalariaTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = GROUPMAI0000000000000001;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = GROUPPRD0000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				TARGETAP0000000000000001 /* TalariaTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		RESOURCP0000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BLDASSET0000000000000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		SOURCEPH0000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BLDAPP000000000000000001 /* TalariaTrackerApp.swift in Sources */,
+				BLD000000000000000000001 /* Models.swift in Sources */,
+				BLD000000000000000000002 /* RideTracker.swift in Sources */,
+				BLD000000000000000000003 /* RideView.swift in Sources */,
+				BLD000000000000000000004 /* HistoryView.swift in Sources */,
+				BLD000000000000000000005 /* RoutesAndStats.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFGPRJDBG000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TalariaTracker/Info.plist;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CFGPRJREL000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TalariaTracker/Info.plist;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CFGTSTDBG000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.talariatracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFGTSTREL000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.talariatracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		PROJCFG00000000000000001 /* Build configuration list for PBXProject "TalariaTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFGPRJDBG000000000000001 /* Debug */,
+				CFGPRJREL000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		TARGCFG00000000000000001 /* Build configuration list for PBXNativeTarget "TalariaTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFGTSTDBG000000000000001 /* Debug */,
+				CFGTSTREL000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ROOTPROJ0000000000000001 /* Project object */;
+}

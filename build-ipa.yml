@@ -1,0 +1,35 @@
+name: Build IPA
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Build archive (unsigned)
+        run: |
+          xcodebuild -project TalariaTracker.xcodeproj \
+            -scheme TalariaTracker \
+            -sdk iphoneos \
+            -configuration Release \
+            -archivePath build/TalariaTracker.xcarchive \
+            archive \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO
+
+      - name: Package IPA
+        run: |
+          mkdir -p Payload
+          cp -R build/TalariaTracker.xcarchive/Products/Applications/TalariaTracker.app Payload/
+          zip -r TalariaTracker.ipa Payload
+
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: TalariaTracker-ipa
+          path: TalariaTracker.ipa
